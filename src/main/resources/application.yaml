@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: app
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/musicdb
+
+file:
+  upload-dir: uploads
